@@ -15,6 +15,9 @@ server:
   port: 8080
 # Security configuration
 security:
-  user:
-    name: user
-password: user
+  oauth2:
+    client:
+      registration:
+        github:
+          clientId: Ov23litW0fZq0FeYq1lf
+          clientSecret: 028fe6199332a7cb3310d24eab9697b2a531b3e4

@@ -82,4 +82,9 @@ public class Book {
                 ", tags=" + tags +
                 '}';
     }
+
+    public void setId(long id) {
+
+        this.id = id;
+    }
 }
